@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group>
+            <item
+                android:id="@+id/nav_favourite"
+                android:icon="@drawable/ic_action_fav_true"
+                android:title="Favorit" />
+
+            <item
+                android:id="@+id/nav_notif"
+                android:icon="@drawable/ic_action_notif"
+                android:title="Pemberitahuan" />
+            <item
+                android:id="@+id/nav_sumber"
+                android:icon="@drawable/ic_action_source"
+                android:title="Sumber Hadits" />
+            <item
+                android:id="@+id/nav_tentang"
+                android:icon="@drawable/ic_action_about"
+                android:title="Tentang" />
+            <item
+                android:id="@+id/nav_setting"
+                android:icon="@drawable/ic_action_setting"
+                android:title="Pengaturan" />
+    </group>
+
+</menu>

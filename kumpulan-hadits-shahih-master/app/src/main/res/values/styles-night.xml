@@ -1,0 +1,30 @@
+<resources>
+
+    <style name="AppThemeNight" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimaryNight</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkNight</item>
+        <item name="colorAccent">@color/colorAccentNight</item>
+        <item name="backgroundStacked">@color/colorPrimaryNight</item>
+    </style>
+
+    <style name="AppThemeNight.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppThemeNight.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="android:background">@color/colorPrimaryNight</item>
+        <item name="android:textColor">#FFF</item>
+    </style>
+
+    <style name="AppThemeNight.PopupOverlay" parent="ThemeOverlay.AppCompat.Light">
+        <item name="android:background">@color/colorPrimaryNight</item>
+        <item name="android:textColor">#FFF</item>
+    </style>
+
+    <style name="MyNoActionBarShadowThemeNight" parent="AppThemeNight">
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+</resources>

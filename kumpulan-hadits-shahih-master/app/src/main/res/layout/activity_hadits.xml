@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fcfdce"
+    tools:context="com.ubp.student.kumpulanhaditsshahih.activity.HaditsActivity">
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:background="@color/colorPrimary"
+                    android:orientation="vertical"
+                    android:padding="20dp">
+
+                    <TextView
+                        android:id="@+id/tv_bab"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Memakai Pakaian Terbaik Yang Dimiliki"
+                        android:textColor="@color/icons"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tv_kitab"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Kitab : Iman"
+                        android:textColor="#EEE"
+                        android:textSize="16dp" />
+
+                    <TextView
+                        android:id="@+id/tv_imam"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Hr. Al-Bukhori"
+                        android:textAlignment="textEnd"
+                        android:textAllCaps="false"
+                        android:textColor="@color/cardview_light_background"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#fcfdce"
+                    android:orientation="vertical"
+                    android:padding="20dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="10dp">
+
+                        <ImageView
+                            android:id="@+id/iv_fav"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentBottom="true"
+                            app:srcCompat="@drawable/ic_action_fav_false" />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/id_ukuran"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="5dp"
+                                android:layout_weight="1"
+                                android:text="UKURAN"
+                                android:textColor="@color/colorPrimaryDark"
+                                android:textSize="16dp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/tv_bagikan"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignBaseline="@+id/textView11"
+                                android:layout_alignBottom="@+id/textView11"
+                                android:layout_marginRight="10dp"
+                                android:layout_toLeftOf="@+id/textView11"
+                                android:layout_toStartOf="@+id/textView11"
+                                android:layout_weight="1"
+                                android:text="BAGIKAN"
+                                android:textAllCaps="true"
+                                android:textColor="@color/colorPrimaryDark"
+                                android:textSize="16dp"
+                                android:textStyle="bold" />
+                            <TextView
+                                android:id="@+id/tv_salin"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentEnd="true"
+                                android:layout_alignParentRight="true"
+                                android:layout_centerVertical="true"
+                                android:layout_weight="1"
+                                android:text="Salin"
+                                android:textAlignment="textEnd"
+                                android:textAllCaps="true"
+                                android:textColor="@color/colorPrimaryDark"
+                                android:textSize="16dp"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+
+                    </RelativeLayout>
+
+                    <TextView
+                        android:id="@+id/tv_isi"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Telah menceritakan kepada kami 'Abdullah bin Yusuf berkata, telah mengabarkan kepada kami Malik dari Nafi' dari 'Abdullah bin 'Umar, bahwa 'Umar bin Al Khaththab melihat pakaian sutera di depan pintu masjid, maka ia pun berkata, &quot;Wahai Rasulullah, seandainya tuan beli pakaian ini lalu tuan kenakan pada hari Jum'at atau saat menyambut utusan (delegasi) bila datang menghadap tuan.&quot; Rasulullah shallallahu 'alaihi wasallam lalu menjawab: &quot;Sesungguhnya orang yang memakai pakaian seperti ini tidak akan mendapat bagian di akhirat.&quot; Kemudian datang hadiah untuk Rasulullah shallallahu 'alaihi wasallam yang diantaranya ada pakain sutera. Beliau lalu memberikan pakaian sutera tersebut kepada 'Umar bin Al Khaththab? radliallahu 'anhu, maka berkatalah 'Umar, &quot;Wahai Rasulullah, tuan telah memberikan pakaian ini untukku, padahal tuan telah menjelaskan konsekwensi orang yang memakainya!&quot; Rasulullah shallallahu 'alaihi wasallam bersabda: &quot;Aku memberikannya kepadamu bukan untuk kamu pakai.&quot; Maka 'Umar bin Al Khaththab memberikan pakaian sutera tersebut kepada saudaranya yang musyrik di kota Makkah.&quot;"
+                        android:textColor="#6e6e6e"
+                        android:textSize="16dp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+</RelativeLayout>

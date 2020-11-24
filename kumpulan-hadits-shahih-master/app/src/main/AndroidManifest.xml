@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.ubp.student.kumpulanhaditsshahih">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".Application"
+        android:allowBackup="true"
+        android:icon="@mipmap/logo_app"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/logo_app"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:replace="android:icon">
+        <meta-data
+            android:name="DATABASE"
+            android:value="mydatabase.db" />
+        <meta-data
+            android:name="VERSION"
+            android:value="1" />
+        <meta-data
+            android:name="QUERY_LOG"
+            android:value="true" />
+        <meta-data
+            android:name="DOMAIN_PACKAGE_NAME"
+            android:value="com.ubp.student.kumpulanhaditsshahih" />
+
+        <activity
+            android:name=".activity.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.HomeActivity"
+            android:label="@string/title_activity_home" />
+        <activity
+            android:name=".activity.SplashScreenActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.BabActivity" />
+        <activity
+            android:name=".activity.DeskripsiActivity"
+            android:label="@string/title_activity_deskripsi"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".activity.ListActivity" />
+        <activity android:name=".activity.KitabActivity" />
+        <activity
+            android:name=".activity.HaditsActivity"
+            android:theme="@style/MyNoActionBarShadowTheme" />
+        <activity android:name=".activity.FavouriteActivity" />
+        <activity android:name=".activity.SumberActivity" />
+        <activity android:name=".activity.TentangActivity" />
+        <activity android:name=".activity.PemberitahuanActivity" />
+
+        <service android:name=".service.MessageService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service android:name=".service.InstanceIDService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity android:name=".activity.SettingActivity">
+
+        </activity>
+    </application>
+
+</manifest>
